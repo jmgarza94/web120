@@ -8,8 +8,7 @@
 <title>Portal Website Homepage</title>
 <script src="https://use.fontawesome.com/6a71565c22.js"></script>
 <link href="css/styles.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="css/nav.css" />
-<link rel="stylesheet" href="css/form.css" />
+<link rel="stylesheet" href="css/forms.css" />
 
 </head>
 
@@ -30,24 +29,27 @@
 
 <!-- START LEFT COL -->
         <section>
-            <h2 class="pageID">Welcome</h2>
-<!-- MAKE SURE YOU GET YOUR (3) IMAGES SAVED INTO YOUR IMAGES FOLDER -->
-            <h3 class="bio">About Me</h3>
-            <p class="bio">I spent my childhood in Seattle, around the Ballard and Crown Hill area, before moving to Central Illinois. After 10 years in Illinois I felt it was time to return back to Seattle. After establishing myself in the city and working at a restaurant for several years I decided to pursue a career in the tech field, and I gravitated toward web development and design.</p>
-                
-            <p class="bio">My hobbies and interests include boxing, computers, anime, watching movies, sneakers and going out with my friends.</p>
+            <?php
+            /*
+             * Below are 2 different forms to be re-used       
+             * 
+             * Only use one at a time, comment out the other!       
+             *
+             */
+
+            include 'includes/contact_include.php'; #site keys & code here
+
+            $toAddress = "josele.garza@seattlecolleges.edu";  //place your/your client's email address here
+            $toName = "Joey"; //place your client's name here
+            $website = "Web 120 Contact Form";  //place NAME of your client's website
+
+            echo loadContact('simple.php');#demonstrates a simple contact form
+            //echo loadContact('multiple.php');#demonstrates multiple form elements
+
+	       ?>
         </section>
 <!-- END LEFT COL -->
 
-<!-- START RIGHT COL -->
-        <aside>
-            <h3>Right Column</h3>
-            <img src="images/tablet.jpg" class="tablet" alt="" />
-            <img src="images/desktop.jpg" class="desktop" alt="" />
-            <img src="images/phone.jpg" class="phone" alt="" />
-        </aside>
-<!-- END RIGHT COL -->
- 
 <!-- START Footer -->
 <footer>
   <p><small>&copy; 2018 - <?=date('Y')?> by <a href="contactme.php" target="_blank">Contact Joey</a>, All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>

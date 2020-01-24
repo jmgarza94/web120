@@ -3,7 +3,7 @@
 /* My WEB120 Portal Website Styles */
 
 html {
-    background-color:#ccc;
+    background-color:#000;
 }
 
 main.wrapper {
@@ -11,11 +11,16 @@ main.wrapper {
     overflow:auto;
 }
 
-/*
-.banner {
-    background-color: red;
+.pageID {
+    padding-left: 10px;
 }
-*/
+
+.bio {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
 
 h1>a {
     text-decoration: none;
@@ -23,7 +28,7 @@ h1>a {
 }
 
 .logo {
-    color:red;
+    color:#ff9900;
     margin-left:1%;
     text-shadow:1px 1px #ccc;
     font-size:1.25em;
