@@ -15,6 +15,11 @@ main.wrapper {
     padding-left: 10px;
 }
 
+img.phone {
+    transform: rotate(90deg);
+    clear: both;
+}
+
 .bio {
     padding-left: 20px;
     padding-right: 20px;
@@ -51,6 +56,14 @@ div.embed-container iframe {
     width: 100%;
     height: 100%;
 }
+
+.contactForm {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    
+}
+
 
 footer {
 	clear:both;
