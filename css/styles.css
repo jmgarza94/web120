@@ -15,21 +15,29 @@ main.wrapper {
     padding-left: 10px;
 }
 
-img.phone {
+/* img.phone {
     transform: rotate(90deg);
     clear: both;
-}
+} */
 
 .bio {
     padding-left: 20px;
     padding-right: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-
 
 
 h1>a {
     text-decoration: none;
     color:#000;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo {
@@ -38,6 +46,19 @@ h1>a {
     text-shadow:1px 1px #ccc;
     font-size:1.25em;
 }
+
+i.logo:hover {
+    text-shadow: 2px 2px grey;
+}
+
+img.shrug {
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /* Embed Responsively Rules! */
 div.embed-container {
