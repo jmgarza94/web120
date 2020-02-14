@@ -87,8 +87,75 @@ div.embed-container iframe {
 
 
 footer {
+    justify-content: center;
 	clear:both;
 }
+
+.foot {
+    padding-left: 20px;
+}
+
+
+/* Styles for my AIA page */
+
+h2.subheader {
+    padding-left: 10px;
+}
+
+table {
+    width: 100%;
+    background-color: white;
+    margin: auto;
+    border: .25em solid black;
+    margin: 1em auto; /* Top Right Bottom Left, also could have been 2em auto */
+    border-collapse: collapse; /* only works on the table tag */
+}
+
+table.table1 tr {
+    width: 25%;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 1.25em;
+    /* padding-left: 10px; */
+    
+}
+
+table.table1 tr:nth-child(even) {
+    background-color: #D3D3D3;
+    color:#000;
+}
+
+table.table2 th {
+    background-color: white;
+    color: black;
+    width: 33%;
+    border: 1px solid black;
+    font-size: 1.3em;
+}
+
+table.table2 tr {
+    background-color: white;
+    color: black;
+    width: 33%;
+    border: 1px solid black;
+    font-size: 1em;
+}
+table.table2 tr:nth-child(even) {
+    background-color: #D3D3D3;
+    color:#000;
+}
+
+table.table2 b {
+    font-size: 1.5em;
+}
+
+.table1 td, .table2 td {
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
 
 /* START RESPONSIVE STYLES */
 
@@ -173,7 +240,7 @@ footer {
 }
 
 
-(nav.css) The following styles for your navigation for your WEB120 portal website. They come from the W3Schools execise here, https://www.w3schools.com/howto/howto_js_topnav_responsive.asp  Save this code to your web120 > css folder and make changes to demonstrate your color and font preferences, if desired.
+/* (nav.css) The following styles for your navigation for your WEB120 portal website. They come from the W3Schools execise here, https://www.w3schools.com/howto/howto_js_topnav_responsive.asp  Save this code to your web120 > css folder and make changes to demonstrate your color and font preferences, if desired. */
 
 @charset "utf-8";
 /* CSS Document */
