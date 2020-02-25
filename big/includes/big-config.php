@@ -85,15 +85,15 @@ switch(THIS_PAGE){
    }
 
 //place URL & labels in the array here for navigation:
-$nav1['../index.php'] = "WEB 120 Portal";
-$nav1['index.php'] = "Home";
-$nav1['responsive.php'] = "Responsive";
-$nav1['flexbox.php'] = "Flexbox";
-$nav1['galleries.php'] = "Galleries";
-$nav1['calendar.php'] = "Calendar";
-$nav1['map.php'] = "Map";
-$nav1['youtube.php'] = "Youtube";
-$nav1['webcam.php'] = "Webcam";
+// $nav1['../index.php'] = "WEB 120 Portal";
+// $nav1['index.php'] = "Home";
+// $nav1['responsive.php'] = "Responsive";
+// $nav1['flexbox.php'] = "Flexbox";
+// $nav1['galleries.php'] = "Galleries";
+// $nav1['calendar.php'] = "Calendar";
+// $nav1['map.php'] = "Map";
+// $nav1['youtube.php'] = "Youtube";
+// $nav1['webcam.php'] = "Webcam";
 
 
 /*
